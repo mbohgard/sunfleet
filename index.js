@@ -11,7 +11,7 @@ const getData = async (type, url) => await (await fetch(url))[type]();
 
 const filterPools = (pools, streets) =>
   pools.filter(
-    pool => streets.filter(street => pool.name.indexOf(street) > -1).length
+    pool => streets.filter(street => contains(street, pool.name)).length
   );
 
 const getFilteredPools = async ({ pools }) =>
