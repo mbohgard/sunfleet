@@ -1,0 +1,17 @@
+{
+  "name": "sunfleet",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Bohgard <martin.bohgard@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^1.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "form-data": "^2.2.0",
+    "node-fetch": "^1.7.2"
+  }
+}
